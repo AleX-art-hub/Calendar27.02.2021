@@ -1,7 +1,5 @@
 'use strict';
-
-import Week from "../model/Week";
-
+import Week from '../model/Week.js';
 export default function(month){
     const tableHeaderElem = document.createElem('thead');
     const tableRow = document.createElement('tr');
@@ -23,4 +21,5 @@ export default function(month){
             tableR.appendChild(tableHeader);
         });
         tableHeaderElem.appendChild(tableR);
+        return tableHeaderElem;
 }

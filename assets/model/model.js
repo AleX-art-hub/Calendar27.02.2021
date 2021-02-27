@@ -1,9 +1,9 @@
 'use strict';
 
-import Day from './Day';
-import Week from './Week';
-import Month from './Month';
-export default{
+import Day from './Day.js';
+import Week from './Week.js';
+import Month from './Month.js';
+export default {
     Day,
     Week,
     Month,

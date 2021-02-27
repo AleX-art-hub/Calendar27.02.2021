@@ -10,7 +10,7 @@ export default class Day{
     get isCurrent(){
         return this._isCurrent;
     }
-    get date(newDate){
+    get date (newDate){
         this._date = newDate;
         this._isCurrent=Day.isCurrent(newDate);
     }
